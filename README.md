@@ -14,11 +14,14 @@ This project presents an end-to-end Deep Learning framework for the automated de
 - **Performance:** Optimized for inference speed (Low Latency) and high accuracy.
 - **Reproducibility:** Structured according to strict Data Science standards.
 
-## 📂 Dataset
-The model is trained on the **PlantVillage dataset**, utilizing 54,303 labeled images.
-- **Source:** [Kaggle - PlantVillage Dataset](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)
-- **Classes:** 38 (Disease vs. Healthy)
-- **Preprocessing:** Rescaling, Augmentation, and Split-folders logic.
+### 📂 Data Setup (Crucial Step)
+Since the dataset is large, it is not included in this repository. Please follow these steps to set up the data:
+
+1.  **Download:** Go to [Kaggle PlantVillage Dataset](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset) and download the archive.
+2.  **Extract:** Unzip the downloaded file.
+3.  **Organize:** Move the extracted `PlantVillage` folder into the `data/raw/` directory of this project.
+    * *Correct Path:* `YourProject/data/raw/PlantVillage/`
+    * Inside this folder, you should see subfolders like `Tomato___Bacterial_spot`, `Pepper__bell___healthy`, etc.
 
 ## 🛠 Installation & Usage
 
