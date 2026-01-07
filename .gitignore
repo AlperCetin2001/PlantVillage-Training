@@ -1,0 +1,11 @@
+# Ignore Data Files
+archive.zip
+PlantVillage/
+PlantVillage_Split/
+PlantVillage_Raw/
+
+# Ignore Python Cache and Virtual Envs
+__pycache__/
+*.pyc
+venv/
+.ipynb_checkpoints/
