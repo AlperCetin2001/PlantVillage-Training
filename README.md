@@ -48,9 +48,6 @@ The dataset is large and is **not included** in this repository. Please follow t
 2.  **Transfer Learning:** Freezing the base layers of MobileNetV2 to retain learned features and fine-tuning the classification head.
 3.  **Visualization:** Generating Grad-CAM heatmaps to validate that the model is detecting biological features (e.g., lesions) rather than background noise.
 
-## 📝 Technical Report (Turkish)
-For a detailed technical breakdown and project report in Turkish, please refer to the [TECHNICAL_REPORT_TR.md](TECHNICAL_REPORT_TR.md) file included in this repository.
-
 ## 🚀 Key Features
 - **Lightweight Architecture:** Uses MobileNetV2 (Pre-trained on ImageNet) for low latency and small model size.
 - **Explainable AI (XAI):** Integrated **Grad-CAM** to generate heatmaps, visualizing the model's "Region of Interest" (ROI).
